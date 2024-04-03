@@ -16,7 +16,7 @@ class UserAdmin(BaseUserAdmin):
         (None, {'fields': ('email', 'password')}),
         (
             _('Permissions'),
-            {
+            {Co
                 'fields': (
                     'is_active',
                     'is_staff',
